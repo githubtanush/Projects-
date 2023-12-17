@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #212737;
+}
+
+.hero{
+    aspect-ratio: 1;
+    height: 10%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50%;
+    top: 4%;
+    left: 10%;
+}
+
+.heading{
+    font-size: 200%;
+    display: block;
+    position: absolute;
+    top: 6%;
+    left: 18%;
+    width: 70%;
+    height: 10%;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.heading > span{
+    font-family: 'Dancing Script', cursive;
+    color: #AFB2BB;
+    font-style: italic;
+}
+
+.sub-heading{
+    font-size: 200%;
+    display: block;
+    position: absolute;
+    top: 14%;
+    left: 18%;
+    width: 50%;
+    height: 10%;
+    font-weight: 500;
+    color: #FC6A02;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 200%;
+    column-gap: 1%;
+    row-gap: 1%;
+}
+
+.project-container > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    width: 30%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-container > a > .project-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.2em solid #FC6A02;
+    overflow-x: hidden;
+    row-gap: 5%;
+}
+
+.project-container > a > .project-card > img{
+    aspect-ratio: 1;
+    height: 45%;
+    object-fit: contain;
+}
+
+.project-container > a > .project-card > p{
+    color: #AFB2BB;
+    font-size: 100%;
+}
