@@ -59,7 +59,7 @@ body{
 
 .project-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     flex-wrap: wrap;
     position: absolute;
     top: 30%;
@@ -95,11 +95,14 @@ body{
 
 .project-container > a > .project-card > img{
     aspect-ratio: 1;
-    height: 45%;
+    height: 50%;
+    
     object-fit: contain;
+    border-radius: 8px;
 }
 
 .project-container > a > .project-card > p{
     color: #AFB2BB;
     font-size: 100%;
 }
+
