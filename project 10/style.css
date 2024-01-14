@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+table{
+    height:100vh;
+    width:100vw;
+}
+#hi{
+    background-color: red;
+}
+#hello{
+    background-color: yellow;
+}
